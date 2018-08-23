@@ -1,0 +1,196 @@
+body {
+    background-color: #eee;
+}
+.wrapper {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color:white;
+    width: auto;
+    height: 900px;
+   margin: 200px auto 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#cir4{
+
+    display: inline-block;
+    position:absolute;
+    top:180px;
+    left:70px;
+    width:250px;
+    height:250px;
+    text-align:center;
+    border-radius:50%;
+    -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    background: #1f980f;
+    border: 10px solid white;
+    margin-left: 600px;
+    margin-top: -100px;
+
+}
+#cir1{
+    display: inline-block;
+    position:absolute;
+    top:180px;
+    left:20px;
+    width:250px;
+    height:250px;
+    margin-left: 650px;
+    margin-top: -100px;
+    text-align:center;
+    border-radius:50%;
+    -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    background: #ff0928;
+    border: 10px solid white;
+    opacity: 0;
+
+}
+#cir1:hover{
+    opacity: 1;
+}
+
+@keyframes asd {
+    0% {
+
+        transform: rotate(0deg);
+    }
+    100% {
+
+        transform: rotate(360deg);
+    }
+
+
+}
+#cir0 {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -49px;;
+    left:-49px;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    border: 30px double #beff16;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 10em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    animation: linear asd 1s  infinite  1s;
+    animation-play-state: running;
+
+}
+#cir3 {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -30px;;
+    left:-23px;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    border: 25px double #14ff1a ;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 10em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+#cir2 {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -20px;;
+    left:-25px;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    border: 25px double #4bfff0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 10em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    opacity: 0.7;
+}
+
+
+#cir5 {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -370px;;
+    left:-25px;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    border: 20px solid #49ff2f;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 10em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    opacity: 0.3;
+}
+
+
+
+
+
+.logo, .logo2  {
+    text-decoration: none;
+    text-shadow: 0 0 5px #7f0c23;
+    color: #fff;
+}
+.logo, .logo2{
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    bottom: 0;
+    left: -112px;
+    right: -112px;
+    text-align:center;
+
+
+}
+.logo,.logo2 {
+    font-family: 'Lobster',Georgia,cursive;
+}
+
+.logo2{
+    margin-top: 100px;
+    margin-bottom: 165px;
+    margin-left: 125px;
+    margin-right: 135px;
+}
+.logo{
+    margin-top: 100px;
+    margin-bottom: 165px;
+    margin-left: 170px;
+    margin-right: 135px;
+}
+
+
+H1 {
+    font-size: 80px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    font-family: Georgia,serif;
+}
